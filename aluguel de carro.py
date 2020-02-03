@@ -1,0 +1,5 @@
+km = float(input('Quantos km vc rodou?'))
+dias = float(input('Quantos dias vc alugou?'))
+#print('rodei {} km por {} dias'.format(km, dias))
+valor = (dias*60) + (km*0.15)
+print('voce tem q pagar {}'.format(valor))
